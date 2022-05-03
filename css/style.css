@@ -1,9 +1,120 @@
-tr:nth-child(even)
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body
 {
-  color: red;
-  background: lightgreen;
+    width: 90%;
+    margin: auto;
+    /* background: green; */
+    background: -webkit-linear-gradient(90deg, rgb(22, 135, 237), rgb(20, 55, 90));
+    background: linear-gradient(90deg, rgb(22, 135, 237), rgb(20, 55, 90));
+    /* background-image: url(https://images3.alphacoders.com/444/thumb-1920-44447.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;*/
+    font-family: 'Open Sans', sans-serif;
 }
 
-p{
+
+p
+{
     font-family: serif;
+}
+
+p:first-child
+{
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+    display: inline-block;
+}
+
+a:hover, a:hover:visited
+{
+    color: green;
+    text-transform: uppercase;
+}
+
+a:visited
+{
+    color: red;
+}
+
+blockquote
+{
+    width: 50%;
+    margin: auto;
+    font-size: 160%;
+    background: grey;
+    border-left: 3px solid black;
+    padding: 30px;
+
+}
+
+q
+{
+    font-style: italic;
+}
+
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+.villagois
+{
+    color:rgb(0, 255, 34)
+}
+
+.farmer
+{
+    color: darkorange;
+}
+
+header > h1
+{
+    background-color: yellow;
+}
+.bad, .good
+{
+    text-transform: uppercase;
+}
+
+.bad
+{
+    color: red;
+}
+
+.good
+{
+    color: green;
+}
+
+tr:nth-child(2n)
+{
+    background: grey;
+}
+
+img
+{
+    float: left;
+    margin-right: 20px;
+}
+
+h2
+{
+    clear: both;
+}
+table
+{
+    caption-side: bottom;
+}
+
+.notif
+{
+    position:fixed;
+    bottom: 0;
+    right: 0;
 }
