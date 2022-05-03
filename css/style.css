@@ -96,6 +96,10 @@ tr:nth-child(2n)
 {
     background: grey;
 }
+tr:nth-child(2n+1)
+{
+    background: white;
+}
 
 img
 {
